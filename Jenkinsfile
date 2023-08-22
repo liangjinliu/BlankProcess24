@@ -61,7 +61,7 @@ pipeline {
 	                credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'),
 					traceLevel: 'None',
 					entryPointPaths: 'Main.xaml',
-					createProcess: false
+					createProcess: true
 
 					)
 
@@ -127,7 +127,7 @@ pipeline {
 	                credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'),
 					traceLevel: 'None',
 					entryPointPaths: 'Main.xaml',
-					createProcess: false
+					createProcess: true
 					)
 
 				}   

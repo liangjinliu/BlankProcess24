@@ -4,11 +4,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueType",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -20,11 +20,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueType",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -36,27 +36,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueType",
             "ValueSource": "Property"
           },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Core.Activities.BeginProcess": [
-      {
-        "Type": "process",
-        "Values": {
-          "name": {
-            "Value": "ProcessName",
-            "ValueSource": "Property"
-          },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -68,11 +52,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -84,7 +68,7 @@
       {
         "Type": "queue",
         "Values": {
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -96,7 +80,7 @@
       {
         "Type": "process",
         "Values": {
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -108,11 +92,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueType",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -124,11 +108,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -140,11 +124,11 @@
       {
         "Type": "asset",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "AssetName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -156,11 +140,11 @@
       {
         "Type": "asset",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "AssetName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -172,27 +156,11 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueType",
             "ValueSource": "Property"
           },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Core.Activities.InvokeProcess": [
-      {
-        "Type": "process",
-        "Values": {
-          "name": {
-            "Value": "ProcessName",
-            "ValueSource": "Property"
-          },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -204,7 +172,7 @@
       {
         "Type": "queue",
         "Values": {
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -216,11 +184,11 @@
       {
         "Type": "asset",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "AssetName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -232,11 +200,11 @@
       {
         "Type": "asset",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "CredentialName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -248,7 +216,7 @@
       {
         "Type": "queue",
         "Values": {
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -260,7 +228,7 @@
       {
         "Type": "queue",
         "Values": {
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -272,11 +240,11 @@
       {
         "Type": "process",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "ProcessName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -288,7 +256,7 @@
       {
         "Type": "process",
         "Values": {
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -298,13 +266,17 @@
     ],
     "UiPath.Core.Activities.Storage.DeleteStorageFile": [
       {
-        "Type": "bucket",
+        "Type": "storage",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "StorageBucketName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "Path": {
+            "Value": "Path",
+            "ValueSource": "Property"
+          },
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -314,13 +286,17 @@
     ],
     "UiPath.Core.Activities.Storage.DownloadStorageFile": [
       {
-        "Type": "bucket",
+        "Type": "storage",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "StorageBucketName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "Path": {
+            "Value": "Path",
+            "ValueSource": "Property"
+          },
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -330,13 +306,17 @@
     ],
     "UiPath.Core.Activities.Storage.ListStorageFiles": [
       {
-        "Type": "bucket",
+        "Type": "storage",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "StorageBucketName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "Directory": {
+            "Value": "Directory",
+            "ValueSource": "Property"
+          },
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -346,13 +326,17 @@
     ],
     "UiPath.Core.Activities.Storage.ReadStorageText": [
       {
-        "Type": "bucket",
+        "Type": "storage",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "StorageBucketName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "Path": {
+            "Value": "Path",
+            "ValueSource": "Property"
+          },
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -362,13 +346,17 @@
     ],
     "UiPath.Core.Activities.Storage.UploadStorageFile": [
       {
-        "Type": "bucket",
+        "Type": "storage",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "StorageBucketName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "Path": {
+            "Value": "Path",
+            "ValueSource": "Property"
+          },
+          "FolderPath": {
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
@@ -378,30 +366,18 @@
     ],
     "UiPath.Core.Activities.Storage.WriteStorageText": [
       {
-        "Type": "bucket",
+        "Type": "storage",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "StorageBucketName",
             "ValueSource": "Property"
           },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Core.Activities.TimeTrigger": [
-      {
-        "Type": "TimeTrigger",
-        "Arguments": {
-          "TimeZone": {
-            "Value": "TimeZone",
+          "Path": {
+            "Value": "Path",
             "ValueSource": "Property"
           },
-          "CronExpression": {
-            "Value": "CronExpression",
+          "FolderPath": {
+            "Value": "FolderPath",
             "ValueSource": "Property"
           }
         },
@@ -412,124 +388,12 @@
       {
         "Type": "queue",
         "Values": {
-          "name": {
+          "Value": {
             "Value": "QueueName",
             "ValueSource": "Property"
           },
-          "folderPath": {
+          "FolderPath": {
             "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
-      {
-        "Type": "Connection",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "UseConnectionService": {
-            "Value": "UseConnectionService",
-            "ValueSource": "Property"
-          },
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.GmailApplicationCard": [
-      {
-        "Type": "Connection",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "UseConnectionService": {
-            "Value": "UseConnectionService",
-            "ValueSource": "Property"
-          },
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.NewGmailTrigger": [
-      {
-        "Type": "EventTrigger",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          },
-          "Operation": {
-            "Value": "Operation",
-            "ValueSource": "Property"
-          },
-          "ObjectName": {
-            "Value": "ObjectName",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
-    "UiPath.Mail.Activities.Business.NewO365EmailTrigger": [
-      {
-        "Type": "EventTrigger",
-        "Key": {
-          "Value": "BindingsKey",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          }
-        },
-        "Arguments": {
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          },
-          "Operation": {
-            "Value": "Operation",
-            "ValueSource": "Property"
-          },
-          "ObjectName": {
-            "Value": "ObjectName",
             "ValueSource": "Property"
           }
         },
